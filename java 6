@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Greater {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.println("The number M is ?");
+    int M = sc.nextInt();
+     System.out.println("The number N is ?");
+    int N = sc.nextInt();
+
+    if (N < M) {
+      System.out.println("The number "+M+" is greater");
+    }else if(M==N){
+         System.out.println("Both are equal");
+    }
+    else {
+      System.out.println("The number "+N+" is greater");
+    }
+  }
+}
